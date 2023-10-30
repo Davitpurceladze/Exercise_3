@@ -9,4 +9,5 @@
     <string name="country">Country</string>
     <string name="save_button">Save</string>
     <string name="clear_button">Clear</string>
+    <string name="again_button">Again</string>
 </resources>

@@ -17,6 +17,56 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/again_button"
+        android:visibility="gone"
+
+        />
+
     <LinearLayout
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
@@ -24,6 +74,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etFirstName"
             android:hint="@string/first_name"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
@@ -36,9 +87,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/baseline_person_outline_24"
-            android:drawablePadding="20dp" />
+            android:drawablePadding="20dp"
+            android:visibility="visible"
+            />
+
+
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etLastName"
             android:hint="@string/last_name"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
@@ -51,10 +107,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/baseline_person_outline_24"
-            android:drawablePadding="20dp" />
+            android:drawablePadding="20dp"
+            android:visibility="visible"
+
+            />
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etEmail"
         android:hint="@string/email"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
@@ -70,7 +130,7 @@
         android:letterSpacing="0.1"
         />
     <androidx.appcompat.widget.AppCompatEditText
-
+        android:id="@+id/etUsername"
         android:textColorHint="@color/white"
         android:hint="@string/user_name"
         android:background="#30FFFFFF"
@@ -91,6 +151,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etAge"
             android:hint="@string/age"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
@@ -106,6 +167,7 @@
               />
 
         <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etCountry"
             android:hint="@string/country"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
@@ -129,6 +191,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
@@ -139,6 +202,7 @@
             android:textColor="@color/white" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnClear"
             android:hint="@string/clear_button"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
