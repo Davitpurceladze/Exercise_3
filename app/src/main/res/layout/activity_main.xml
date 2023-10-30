@@ -19,6 +19,8 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvFirstName"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -26,6 +28,8 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvLastName"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -33,6 +37,8 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvEmail"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -40,6 +46,8 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvUsername"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -47,6 +55,8 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvAge"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -54,12 +64,16 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvCountry"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnAgain"
+        android:textColor="@color/white"
+        android:background="@color/save_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/again_button"
