@@ -9,7 +9,7 @@
     android:background="@color/background_color"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:hint="@string/profile_Info"
         android:textColorHint="@color/white"
         android:textSize="60sp"
@@ -167,6 +167,7 @@
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/etAge"
             android:hint="@string/age"
+            android:inputType="number"
             android:textColorHint="@color/white"
             android:textColor="@color/white"
             android:background="#30FFFFFF"
